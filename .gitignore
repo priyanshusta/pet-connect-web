@@ -1,0 +1,57 @@
+# Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.sqlite3
+*.db
+
+# Django media and static files
+/media/
+/staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Frontend build artifacts (already covered in frontend/.gitignore)
+# but adding here for completeness
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env*
+
+# Backend specific
+/backend/__pycache__/
+/backend/*.pyc
+/backend/media/
+/backend/staticfiles/
